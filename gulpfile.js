@@ -1,20 +1,24 @@
 var gulp = require('gulp');
 var $ = require('gulp-load-plugins')();
 
-gulp.task('concat', function() {
-	gulp.src(['./css/mobile.css', './css/animate.css', './css/icons.css'])
+gulp.task('mobilecss', function() {
+	gulp.src(['./css/icons.css', './css/mobile.css', './css/animate.css'])
 		.pipe($.concat('mobile.min.css'))
 		.pipe($.minifyCss())
-		.pipe($.rev())
 		.pipe(gulp.dest('./css'))
-		.pipe($.rev.manifest())
-		.pipe(gulp.dest('./rev'));
 });
-
-gulp.task('rev', ['concat'], function() {
-	gulp.src(['./rev/*.json', './*.html'])
-		.pipe($.revCollector())
-		.pipe(gulp.dest('./build/'))
+gulp.task('mobilejs', function() {
+	gulp.src(['./js/FullPage.js', './js/mobile.js'])
+		.pipe($.concat('mobile.min.js'))
+		.pipe($.uglify())
+		.pipe(gulp.dest('./js'))
 });
+gulp.task('mobile', ['mobilecss', 'mobilejs']);
 
-gulp.task('mobile', ['rev']);
+gulp.task('pccss', function() {
+	gulp.src(['./css/icons.css', './css/index.css', './css/shake.css'])
+		.pipe($.concat('index.min.css'))
+		.pipe($.minifyCss())
+		.pipe(gulp.dest('./css'))
+});
+gulp.task('pc', ['pccss']);

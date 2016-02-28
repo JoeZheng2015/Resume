@@ -15,11 +15,8 @@ html {
 body {
 	height: 100%;
 	font-size: .32rem;
-	-webkit-user-select: none;
-	-moz-user-select:none;
-	-ms-user-select:none;
 	user-select:none;
-    font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB',微软雅黑,'WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
+    font-family: 'Helvetica Neue',Helvetica,'Lucida Grande',Arial,'Hiragino Sans GB','WenQuanYi Micro Hei',STHeiti,SimSun,sans-serif;
 }
 #wrapper {
 	height: 100%;
@@ -47,10 +44,6 @@ body {
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
-	-ms-transform: translate3d(0,0,0);
-	-moz-transform: translate3d(0,0,0);
-	-webkit-transform: translate3d(0,0,0);
-	-o-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
 }
 .slider {
@@ -81,10 +74,6 @@ body {
 	position: absolute;
 	top: 40%;
 	left: 50%;
-	-ms-transform: translate(-50%,-50%);
-	-moz-transform: translate(-50%,-50%);
-	-webkit-transform: translate(-50%,-50%);
-	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
 }
 .more a {
@@ -199,7 +188,4 @@ body {
 	z-index: 1;
 	margin: -.07rem 0 0 -.12rem;
 	transform: rotate(-135deg);
-	-webkit-transform: rotate(-135deg);
-	-moz-transform: rotate(-135deg);
-	-o-transform: rotate(-135deg);
 }

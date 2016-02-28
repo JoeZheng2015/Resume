@@ -33,9 +33,6 @@ aside li {
 	width: 80px;
 	line-height: 38px;
 	padding-left: 10px;
-	-moz-transition: width 0.2s;
-	-webkit-transition: width 0.2s;
-	-o-transition: width 0.2s;
 	transition: width 0.2s;
 	float: right;
 	clear: right;
