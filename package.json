@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/JoeZheng2015/Resume/issues"
   },
-  "homepage": "https://github.com/JoeZheng2015/Resume#readme"
+  "homepage": "https://github.com/JoeZheng2015/Resume#readme",
+  "devDependencies": {
+    "gulp-concat": "^2.6.0",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rev": "^7.0.0",
+    "gulp-rev-collector": "^1.0.2"
+  }
 }
