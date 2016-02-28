@@ -16,8 +16,7 @@ li {
 a {
     text-decoration: none;
 }
-.bs {
-}
+
 /*侧边栏部分*/
 aside {
 	position: fixed;
@@ -44,7 +43,8 @@ aside li {
 aside li:hover {
 	width: 100px;
 }
-aside li a {
+.sidebar a,
+aside a {
 	color: #fff;
 }
 .pc-img {
@@ -66,14 +66,20 @@ aside li a {
 	border-radius: 5px;
 	overflow: hidden;
 }
+.main {
+	border-radius: 4px;
+	padding: 15px 20px 20px;
+	margin-left: 300px;
+	background-color: #f0f2f1;
+}
 .sidebar {
 	position: absolute;
 	left: 0;
 	background-color: #00bfa5;
 	color: #fff;
 	width: 270px;
-	padding: 15px 15px 10000px;
-	margin-bottom: -10000px;
+	height: 100%;
+	padding: 15px 15px 0;
 }
 .avatar-box {
 	text-align: center;
@@ -122,12 +128,7 @@ aside li a {
 	border-radius: 20px 0 0 20px;
 }
 
-.main {
-	border-radius: 4px;
-	padding: 15px 20px 20px;
-	margin-left: 300px;
-	background-color: #f0f2f1;
-}
+
 .main-list {
 	margin-top: 20px;
 }

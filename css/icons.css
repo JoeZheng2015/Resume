@@ -20,23 +20,47 @@
 }
 
 
-.icon-email:before {
+.icon-add:before {
 	content: "\E001";
 }
 
-.icon-link:before {
+.icon-css3:before {
 	content: "\E002";
 }
 
-.icon-mark:before {
+.icon-email:before {
 	content: "\E003";
 }
 
-.icon-qq:before {
+.icon-github:before {
 	content: "\E004";
 }
 
-.icon-wechat:before {
+.icon-gulp:before {
 	content: "\E005";
+}
+
+.icon-javascript:before {
+	content: "\E006";
+}
+
+.icon-link:before {
+	content: "\E007";
+}
+
+.icon-mark:before {
+	content: "\E008";
+}
+
+.icon-nodejs:before {
+	content: "\E009";
+}
+
+.icon-qq:before {
+	content: "\E00A";
+}
+
+.icon-wechat:before {
+	content: "\E00B";
 }
 
