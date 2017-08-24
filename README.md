@@ -60,7 +60,7 @@
 
 亮点：
 * 使用 Canvas 绘制动画，解决在低端机上动画卡顿问题
-* 监听devicemotion事件，根据重力加速度是否到达阈值，来判断是否成功抽奖
+* 监听 devicemotion 事件，根据重力加速度是否到达阈值，来判断是否成功抽奖
 
 ## 开源项目和作品
 ### 开源项目
@@ -81,8 +81,8 @@
 
 ## 技能清单
 * JavaScript：能熟练使用 ES6/7；有 Canvas 动画开发经验
-* CSS: 熟悉Sass、Flex布局、BEM语法
-* 测试框架：有ava、mocha 使用经验
-* 前端框架：能熟练使用React全家桶；有 Vue 开发经验
-* 打包工具：能熟练使用rollup完成开源项目的打包，了解webpack
-* 后端开发：有NodeJs 开发经验，了解 express, mongoose 的使用。完成过2个小程序后端开发
+* CSS: 熟悉 Sass、Flex 布局、BEM 语法
+* 测试框架：有 ava、mocha 使用经验
+* 前端框架：能熟练使用 React 全家桶；有 Vue 开发经验
+* 打包工具：能熟练使用 rollup 完成开源项目的打包，了解 webpack
+* 后端开发：有 NodeJs 开发经验，了解 express, mongoose 的使用。完成过2个小程序后端开发
