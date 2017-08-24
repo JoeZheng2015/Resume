@@ -4,7 +4,7 @@
 
 * 个人信息：郑俊鑫/男/1992
 * 教育经历：本科/北京邮电大学/2015届电信工程及管理
-* 工作年限：2年
+* 工作年限：2 年
 * 技术博客：https://zhengjunxin.github.io/
 * Github: https://github.com/zhengjunxin
 * 英语能力：通过英语 6 级，雅思成绩 6.0
@@ -71,13 +71,13 @@
 ### 技术文章
 * [requestAnimationFrame 方法你真的用对了吗？](https://segmentfault.com/a/1190000010229232)
 * [为什么 React 需要 Redux 这类状态管理库](https://zhengjunxin.github.io/2017/06/22/why-need-state-management/)
-* [手Q演出选座页性能10倍提升的优化](https://zhengjunxin.github.io/2017/01/02/canvas-seat/)
+* [手Q演出选座页性能 10 倍提升的优化](https://zhengjunxin.github.io/2017/01/02/canvas-seat/)
 * [debounce 和 throttle 总结](https://zhengjunxin.github.io/2017/03/17/debounce-and-throttle/)
 
 ### 其他
 * 为 [AlloyTimer](https://github.com/AlloyTeam/AlloyTimer)、[freactal](https://github.com/FormidableLabs/freactal)、[stats.js](https://github.com/mrdoob/stats.js)、[async](https://github.com/caolan/async) 等开源项目提过功能性 PR 且被 merge
-* 阅读过[tj/commander.js](https://github.com/tj/commander.js)、[async](https://github.com/caolan/async)queue模块的源码，然后用 ES6 实现了一遍[commander](https://github.com/zhengjunxin/commander)、[queue](https://github.com/zhengjunxin/queue)并且通过测试用例
-* 获得微影时代科技有限公司2016年的优秀员工
+* 阅读过[tj/commander.js](https://github.com/tj/commander.js)、[async](https://github.com/caolan/async) 的 queue 模块的源码，然后用 ES6 实现了一遍[commander](https://github.com/zhengjunxin/commander)、[queue](https://github.com/zhengjunxin/queue)并且通过测试用例
+* 获得微影时代科技有限公司 2016 年的优秀员工
 
 ## 技能清单
 * JavaScript：能熟练使用 ES6/7；有 Canvas 动画开发经验
@@ -85,4 +85,4 @@
 * 测试框架：有 ava、mocha 使用经验
 * 前端框架：能熟练使用 React 全家桶；有 Vue 开发经验
 * 打包工具：能熟练使用 rollup 完成开源项目的打包，了解 webpack
-* 后端开发：有 NodeJs 开发经验，了解 express, mongoose 的使用。完成过2个小程序后端开发
+* 后端开发：有 NodeJs 开发经验，了解 express, mongoose 的使用。完成过 2 个小程序后端开发
