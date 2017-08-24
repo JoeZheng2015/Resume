@@ -10,8 +10,6 @@
 * 英语能力：通过英语 6 级，雅思成绩 6.0
 * Email：zheng_junxin@163.com
 
----
-
 ## 工作经历
 
 ### 北京微影时代科技有限公司 （ 2016年3月 ~ 至今 ）
@@ -64,8 +62,6 @@
 * 使用 Canvas 绘制动画，解决在低端机上动画卡顿问题
 * 监听devicemotion事件，根据重力加速度是否到达阈值，来判断是否成功抽奖
 
----
-
 ## 开源项目和作品
 ### 开源项目
  * [wx-promise-request](https://github.com/zhengjunxin/wx-promise-request) : 解决微信小程序 wx.request 请求的并发数限制、不支持异步问题
@@ -83,7 +79,6 @@
 * 阅读过[tj/commander.js](https://github.com/tj/commander.js)、[async](https://github.com/caolan/async)queue模块的源码，然后用 ES6 实现了一遍[commander](https://github.com/zhengjunxin/commander)、[queue](https://github.com/zhengjunxin/queue)并且通过测试用例
 * 获得微影时代科技有限公司2016年的优秀员工
 
----
 ## 技能清单
 * JavaScript：能熟练使用 ES6/7；有 Canvas 动画开发经验
 * CSS: 熟悉Sass、Flex布局、BEM语法
