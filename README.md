@@ -35,7 +35,7 @@
 
 亮点：
 * 提升性能:在重构首页时使用组件复用、上拉加载等技术提升了首屏渲染速度
-* 封装模块:负责请求模块的封装，管理错误处理，且引入 LRU 缓存，提升性能
+* 封装模块:负责请求模块的封装，管理错误处理，引入 LRU 缓存，区分缓存粒度，提升性能
 * 引入测试框架:使用 AVA 为优惠券的金额计算增加测试用例，保障了金额计算的正确性
 
 #### 演出后台管理系统项目
@@ -77,8 +77,8 @@
 ### 其他
 * 为 [AlloyTimer](https://github.com/AlloyTeam/AlloyTimer)、[freactal](https://github.com/FormidableLabs/freactal)、[stats.js](https://github.com/mrdoob/stats.js)、[async](https://github.com/caolan/async) 等开源项目提过功能性 PR 且被 merge
 * 阅读过[tj/commander.js](https://github.com/tj/commander.js)、[async](https://github.com/caolan/async) 的 queue 模块的源码，然后用 ES6 实现了一遍[commander](https://github.com/zhengjunxin/commander)、[queue](https://github.com/zhengjunxin/queue)并且通过测试用例
-* 获得微影时代科技有限公司 2016 年的优秀员工
-* 拥有一项专利发明[一种绘制座位图的方法和装置](http://cpquery.sipo.gov.cn/txnQueryBibliographicData.do?select-key:shenqingh=2017100694603&select-key:gonggaobj=1&select-key:backPage=http%3A%2F%2Fcpquery.sipo.gov.cn%2FtxnQueryOrdinaryPatents.do%3Fselect-key%3Ashenqingh%3D%26select-key%3Azhuanlim)
+* 获得微影时代科技有限公司 2016 年的优秀员工,并于 2017 年中晋升为高级工程师
+* 专利发明：[《一种绘制座位图的方法和装置》](http://cpquery.sipo.gov.cn/txnQueryBibliographicData.do?select-key:shenqingh=2017100694603&select-key:gonggaobj=1&select-key:backPage=http%3A%2F%2Fcpquery.sipo.gov.cn%2FtxnQueryOrdinaryPatents.do%3Fselect-key%3Ashenqingh%3D%26select-key%3Azhuanlim)
 
 ## 技能清单
 * JavaScript：能熟练使用 ES6/7；有 Canvas 动画开发经验
